@@ -9,7 +9,7 @@ import {
 import { useRouter } from "expo-router";
 import styles from "./popularjobs.style";
 import { SIZES, COLORS } from "../../../constants";
-import PopularJobCard from "../../common/cards/                                             /PopularJobCard";
+import PopularJobCard from "../../common/cards/popular/PopularJobCard";
 import useFetch from "../../../hook/useFetch";
 
 const Popularjobs = () => {
@@ -39,7 +39,7 @@ const Popularjobs = () => {
             renderItem={({ item }) => (
               <PopularJobCard
                 item={item}
-                data={data}
+                // data={data}
                 // job_title={data.map((title) => title.job_title)}
                 // key={item}
               />
